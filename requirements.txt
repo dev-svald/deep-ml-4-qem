@@ -1,0 +1,25 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
+
+# Quantum simulation
+pennylane>=0.36
+
+# Qiskit (IBM hardware pipeline — optional but recommended)
+qiskit>=1.0
+qiskit-aer>=0.14
+
+# Machine learning — PyTorch
+torch>=2.2
+# (installs torchvision automatically on most platforms)
+
+# TensorBoard — training monitoring
+tensorboard>=2.16
+
+# Hyperparameter tuning
+optuna>=3.6
+optuna-dashboard>=0.15   # optional: web dashboard for Optuna studies
+
+# Optional: IBM Runtime (real hardware access)
+# qiskit-ibm-runtime>=0.20
